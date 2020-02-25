@@ -1,0 +1,225 @@
+.text-primary {
+    color: #ff9911 !important;
+}
+
+a.text-primary:focus, a.text-primary:hover {
+    color: #f78c00 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff9911;
+    border-color: #ff9911;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f78c00;
+    border-color: #f78c00;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #364150 !important;
+
+}
+
+
+/*css for login and sign up page */
+
+.login, .sign-up, .forget-password{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.login .logo, .sign-up .logo, .forget-password .logo{
+	width: 50px;
+	margin: 0px auto;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.login-form, .sign-up-form, .forget-password-form{
+	width: 400px;
+	background-color: #eceef1;
+	margin: auto;
+	border-radius: 7px;
+
+}
+.login-container, .sign-up-container, .forget-password-container{
+	padding: 0px 30px;
+}
+.login-form h1, .sign-up-form h1, .forget-password-form h1{
+	padding-top: 50px;
+	padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+
+}
+.login-btn, .sign-up-btn, .forget-password-btn{
+	width: 75px;
+	margin-right: 25px;
+	float: left;
+}
+
+.remember{
+	width: 95px;
+	margin-right: 25px;
+	float: left;
+}
+.forget-password-link{
+	width: 118px;
+	float: left;
+}
+
+
+.remember , .forget-password-link{
+	font-weight: 400;
+	font-size: 14px;
+}
+.social-login, .social-sign-up{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+
+.social-login p, .social-sign-up p{
+	padding-top: 7px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #7d91aa;
+}
+.social-login .icon, .social-sign-up .icon{
+	width: 50%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.social-login .icon .icon-link, .social-sign-up .icon .icon-link {
+	height: 35px;
+	width: 35px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+
+.social-login .facebook, .social-sign-up .facebook{
+	background: #4A6D9D;
+}
+
+.social-login .linkedin, .social-sign-up .linkedin{
+	background: #0073B0;
+}
+.social-login .twitter, .social-sign-up .twitter{
+	background: #1DA1F2;
+}
+
+.social-login .facebook:hover, .social-sign-up .facebook:hover{
+	background: #326BB9;
+}
+
+.social-login .linkedin:hover, .social-sign-up .linkedin:hover{
+	background: #01679D;
+}
+.social-login .twitter:hover, .social-sign-up .twitter:hover{
+	background: #0C9DF7;
+}
+
+.login-form .sign-up{
+	background: #6C7A8D;
+	padding: 15px;
+}
+.login-form .sign-up a{
+	font-size: 16px;
+	font-weight: normal;
+	font-weight: 500;
+	text-decoration: none;
+	color: #ff9911;
+
+}
+.login-form .sign-up a:hover{
+	color: #f78c00;
+}
+
+.footer{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.footer p{
+	color: #7a8ca5;
+	font-size: 13px;
+	font-weight: 400px;
+}
+
+.sign-up-form .btn-container, .forget-password-form .btn-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.sign-up-form form p, .forget-password-form form p{
+	color: #999999;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.sign-up-form .btn-back, .forget-password-form .btn-back{
+	display: block;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 400px;
+	text-decoration: none;
+	color: #333333 !important;
+	background:#d3d3d3 !important;	
+	border-radius: 2px;
+}
+.terms-and-condition{
+	padding-bottom: 20px;
+}
+.terms-and-condition input, .terms-and-condition p{
+	display: inline;
+}
+
+@media only screen and (max-width: 420px) {
+.login-form, .sign-up-form, .forget-password-form{
+	width: 90%;
+	background-color: #eceef1;
+	margin:15px;
+	border-radius: 7px;
+
+}
+.social-login .icon{
+	width: 58%;
+}
+.login-btn{
+	margin-right: 0px;
+	float: left;
+}
+
+.remember{
+	margin-right: 0px;
+	float: right;
+}
+.forget-password-link{
+	clear: both;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+}

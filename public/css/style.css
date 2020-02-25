@@ -1,0 +1,153 @@
+.btn-primary {
+    color: #fff !important;
+    background-color: #ff9911 !important;
+    border-color: #ff9911 !important;
+}
+
+.text-primary{
+	color: #ff9911 !important;
+}
+
+.bg-primary{
+    background-color: #ff9911 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+    color: #e68200 !important;
+}
+.text-14{
+	font-size: 14px !important;
+}
+.text-15{
+	font-size: 15px !important;
+}
+
+.text-16{
+	font-size: 16px !important;
+}
+
+.text-18{
+	font-size: 18px !important;
+}
+
+
+body{
+	font-family: "Open Sans", sans-serif !important;
+}
+
+.order table th{
+	font-size: 14px;
+}
+
+
+
+
+/*dropzone edit*/
+
+#dropzoneFrom{
+	border:none;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*accordion*/
+
+#accordion .panel {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0;
+  border: 0;
+  margin-top: 0px;
+
+}
+#accordion a {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  padding: 5px 10px;
+  border-bottom: .5px solid #ddd;
+  text-decoration: none;
+  color: #858796;
+}
+
+#accordion .panel-heading a.collapsed:hover,
+#accordion .panel-heading a.collapsed:focus {
+  background-color: #ff9911;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+#accordion .panel-heading a.collapsed:hover::before,
+#accordion .panel-heading a.collapsed:focus::before {
+  color: white;
+}
+#accordion .panel-heading {
+  padding: 0;
+  font-size: 15px;
+  border-radius: 0px;
+  text-align: left;
+}
+#accordion .panel-heading a:not(.collapsed) {
+  color: white;
+  background-color: #ff9911;
+  transition: all 0.2s ease-in;
+}
+
+/* Add Indicator fontawesome icon to the left */
+#accordion .panel-heading .accordion-toggle::before {
+  font-family: 'FontAwesome';
+  content: '\f00d';
+  font-size: 16px;
+  display: inline-block;
+  padding: 0px;
+  color: white;
+  font-weight: lighter;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in;
+}
+#accordion .panel-heading .accordion-toggle.collapsed::before {
+  color: #858796;
+  font-size: 16px;
+  transform: rotate(-135deg);
+  transition: all 0.2s ease-in;
+}
+
+#accordion .panel-body p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px !important;
+  text-align: justify;
+ 
+}
